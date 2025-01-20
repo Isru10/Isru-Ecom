@@ -10,6 +10,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\File;
 
+
+//changed from manual gates defnition in authprovider to policy
 class SPostController extends Controller
 {
     public function index()
